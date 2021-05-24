@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin: 16px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Sign Up For Monthly Candy Updates</legend>
+            <label>Create Username
+                <input type="text" name="name" placeholder="Please Enter Username"/>
+            </label>
+            <label>Create Password
+                <input type="password" name="password" placeholder="Please Enter Password"/>
+            </label>
+            <label>Your Email Address
+                <input type="email" name="user-email" placeholder="Please Enter Email Address"/>
+            </label>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Do You Like Candy?</legend>
+            <label>
+                <input type="radio" name="question" value="yes" /> Yes
+            </label>
+            <label>
+                <input type="radio" name="question" value="no" /> No
+            </label>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>What is Your Favorite Candy? (Choose More than One)</legend>
+            <label> 
+                <input type="checkbox" /> Hershey's
+            </label>
+            <label> 
+                <input type="checkbox" /> Kit Kat 
+            </label>
+            <label> 
+                <input type="checkbox" /> Mr. Goodbar 
+            </label>
+            <label> 
+                <input type="checkbox" /> Almond Joy 
+            </label>
+          </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <label for="time-select"> What is Your Favorite Time to Eat Candy? </label>
+            <select name="time" id="time-select">
+              <option value="" disabled selected>--Please choose an option--</option>
+              <option value="during-movies">During Movies</option>
+              <option value="in-the-morning">In The Morning</option>
+              <option value="at-dinner-time">At Dinner Time</option>
+              <option value="at-lunch-time">At Lunch Time</option>
+              <option value="while-working-out">While Working Out</option>
+            </select>
+          </fieldset>
+    </form>
+</body>
+</html>
